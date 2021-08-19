@@ -1,0 +1,78 @@
+
+.PaymentContainer
+{
+    background-color: white;
+    width: 85%;
+    max-height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.ThePayPalPart
+{
+    background-color: white;
+    width: 85%;
+    max-height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+body
+{
+    background-color: rgb(145, 143, 143);
+}
+input
+{
+     width: 30vw;
+     border: solid 1px black;
+}
+input:hover
+{
+    cursor: text;
+}
+.radio:hover
+{
+    cursor: pointer;
+}
+select
+{
+    width: 10vw;
+    border: solid 1px black;
+    height: 2.7vw;
+}
+select:hover
+{
+    background-color: rgb(219, 214, 205);
+    cursor: pointer;
+}
+.Confirm
+{
+    float: right;
+    margin-right: 100px;
+    width: 22vw;
+    border: solid 0px yellow;
+    background-color: yellow;
+    border-radius: 0px;
+}
+.Confirm:hover
+{
+    background-color: yellow;
+}
+.AskTheUser
+{
+    font-size: 1.7vw;
+}
+h2
+{
+    transform: translateX(10%);
+    font-size: 0.2vw;
+}
+
+.ThePayPalPart
+{
+    height: fit-content;
+    visibility: hidden;
+    margin-right: 50%;
+}
+.TheChangingPart
+{
+    visibility: hidden;
+}

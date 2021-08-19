@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="Account.css">
+    <link rel="stylesheet" href="WebSiteMainStyle.css">
+    <link rel="stylesheet" href="SignUp.css">
+    
+</head>
+<body>
+    
+    <div class="Menu">
+        <div class="account">
+            <button onClick="openAccount()"class="mainmenu">Account</button>
+        </div>
+        <span class="title">Infinity Learning Website</span>
+        <div class="list">
+            <ul class="list">
+                <button onClick="openHome()" class="mainmenu">Home</button>
+                <button class="mainmenu">Contact us</button>
+                <button onClick="openSignUp()" class="mainmenu">Sign Up</button>
+                <button onClick="openCourses()" class="mainmenu" style="border-bottom: solid 4px white;">Courses</button>  
+            </ul>
+        </div>
+    </div>
+    <div class="PageContainer">
+        <div class="SideBar">
+            <div class="AccountData">
+                <div class="profile">
+                    <br>
+                    <img src="https://cdn4.iconfinder.com/data/icons/e-commerce-181/512/477_profile__avatar__man_-512.png" alt="" style="height: 40%;width: 40%; margin: 0 auto;">
+                    <span style="font-size: 2vw; color: black;">&emsp;someone Someone</span>
+                    <button style="margin-left: 5.5vw;margin-top: 3vw;border: 0ch;">View Profile</button>
+                    <br><br>
+                </div>
+            </div>
+            <div class="UnorderedList">
+                <ul class="subjects">
+                    <li><div class="subjectDiv" id="SubjectName"><span style="font-size: 2vw;" id="sayed"class="Names">Math1</span></div><div class="plusDiv" id="Math1">&nbsp;+</div></li>
+                    <li><div class="subjectDiv" id="SubjectName"><span style="font-size: 2vw;"  class="Names">Physics1</div><div class="plusDiv" id="physics1">&nbsp;+</div></li>
+                    <li><div class="subjectDiv" id="SubjectName"><span style="font-size: 2vw;"  class="Names">Math2</div><div class="plusDiv" id="Math2">&nbsp;+</div></li>
+                    <li><div class="subjectDiv" id="SubjectName"><span style="font-size: 2vw;"  class="Names">Dynamic1</span></div><div class="plusDiv" id="Dynamics1">&nbsp;+</div></li>
+                    <li><div class="subjectDiv" id="SubjectName"><span style="font-size: 2vw;"  class="Names">Prog1</span></div><div class="plusDiv" id="Prog1">&nbsp;+</div></li>
+                    <li><div class="subjectDiv" id="SubjectName"><span style="font-size: 2vw;" class="Names">Prog2</span></div><div class="plusDiv" id="Prog2">&nbsp;+</div></li>       
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            
+            <div class="h1Div"><h1>Search Coarses</h1></div>
+            <br><br>
+            <input type="text" placeholder="Search For Subject..." class="Search"><br><br><br>
+            <h2 style="font-size: 2vw; padding: 0px; margin: 0;text-align: center;">Learning Process</h2>
+            <br>
+            <div class="ProgreePercentage">
+              <div class=" left">
+                <div class="level">
+                  <div class="Downloaded">
+
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+               <h1 style="font-size: 1.8vw;"><label for="">40%</label></h1>
+              </div>
+            </div>
+            <div class="YourCourses" id="courses">
+                <div class="TheCourse" id="theCourse">
+                    <div class="CourseTitle" id="title">
+                        <h2 id="Coursedata">Create an account</h2>
+                    </div>
+                  <div class="CourseData" id="Coursedata">
+                        <h3 class="Progress" id="Progress">Progess</h3>
+                        <span class="state" id="state"><span class="state">&emsp;100%</span>Complete</span>
+                        <button onclick="openTheCourse()" class="theButton" id="button">View Course</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <script src="Account.js">
+           
+        </script>
+        <script src="LinkThePages.js"></script>
+</body>
+</html>

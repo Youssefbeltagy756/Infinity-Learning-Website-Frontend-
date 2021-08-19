@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="WebSiteMainStyle.css">
+    <link rel="stylesheet" href="Information.css">
+    <link rel="stylesheet" href="PaymentMethod.css">
+</head>
+<body>
+    <div class="Menu">
+        <div class="account">
+            <button onClick="openAccount()"class="mainmenu">Account</button>
+        </div>
+        <span class="title">Infinity Learning Website</span>
+        <div class="list">
+            <ul class="list">
+                <button onClick="openHome()" class="mainmenu" style="border-bottom: solid 4px white;">Home</button>
+                <button class="mainmenu">Contact us</button>
+                <button onClick="openSignUp()" class="mainmenu"onClick="openSignUp()">Sign Up</button>
+                <button onClick="openCourses()"class="mainmenu">Courses</button>   
+            </ul>
+        </div>
+    </div>
+    <div class="PaymentContainer" id="PaymentContainer">
+        <h1 style="text-align: left;font-size: 3vw; transform: translateX(50px);padding-top: 40px;">Fill The Following Application</h1>
+        <h4><span>First Name</span></h4>
+        <h4><input type="text" class="Resized" placeholder="First Name..."></h4>
+        <h4><span>Last Name</span></h4>
+        <h4><input type="text" class="Resized" placeholder="Last Name..."></h4>
+        <h4><span>Date of Birth</span></h4>
+        <h4><input type="date" class="Resized"></h4>
+        <h4><span>Gender</span></h4>
+        <form action=""></form>
+               <input type="radio" id="pay1" name="pay" value="30" class="radio" class="Resized"><span style="font-size: 1.4vw;" >Male</span>
+               <br><br>
+               <input type="radio" id="pay2" name="pay" value="30" class="radio"><label style="font-size: 1.4vw;">Female</label>
+            </form>
+        <h4><span>Choose Origin</span></h4>
+        <h4><select id="cars" name="carlist" form="carform" class="Resized">
+            <option value="volvo">Africa</option>
+            <option value="saab">Asia</option>
+            <option value="opel">Europe</option>
+            <option value="audi">Latin America</option>
+          </select></h4>
+          <h4><span>Highest Academic Degree</span></h4>
+        <h4><select id="cars" name="carlist" form="carform" class="Resized">
+            <option value="volvo">Awatly</option>
+            <option value="saab">Bachekor</option>
+            <option value="opel">HighSchool</option>
+            <option value="audi">Master</option>
+          </select></h4>
+          <h4><span>Occupation Field</span></h4>
+          <h4><input type="text" class="Resized" placeholder="Occupation Field..."></h4>
+          <h4><span>Uploud Profile Picture</span></h4>
+          <button class="Confirm" style="float: left; margin-left: 10%;">Upload Photo</button>
+          <br><br><br>
+          <h4><span>Add Bio (Optional)</span></h4>
+          <h4><input type="text" placeholder="Add Bio..." class="Bio" style="height: 20vw;width: 30vw;"></h4>
+          <button onclick="openEnroll()" class="Confirm">Submit</button>
+    </div>
+    <script src="LinkThePages.js"></script>
+    <script>
+                 function openEnroll()
+        {
+            window.open("Enroll.html");
+            window.close();
+        }
+    </script>
+</body>
+</html>

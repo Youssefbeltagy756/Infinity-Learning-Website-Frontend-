@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="WebSiteMainStyle.css">
+    <link rel="stylesheet" href="PaymentMethod.css">
+</head>
+<body>
+    <div class="Menu">
+        <div class="account">
+            <button onClick="openAccount()"class="mainmenu">Account</button>
+        </div>
+        <span class="title">Infinity Learning Website</span>
+        <div class="list">
+            <ul class="list">
+                <button onClick="openHome()" class="mainmenu" style="border-bottom: solid 4px white;">Home</button>
+                <button class="mainmenu">Contact us</button>
+                <button onClick="openSignUp()" class="mainmenu"onClick="openSignUp()">Sign Up</button>
+                <button onClick="openCourses()"class="mainmenu">Courses</button>  
+            </ul>
+        </div>
+    </div>
+        
+            <br><br>
+            <div class="PaymentContainer" id="PaymentContainer">
+               <h1 style="text-align: left;font-size: 3vw; transform: translateX(50px);padding-top: 40px;">Payment Method</h1>
+               <span style="font-size: 2vw;">&emsp;&emsp;&emsp;&emsp;Choose Payment Method</span>
+               <br><br>
+               <form action=""></form>
+               <input type="radio" id="pay1" name="pay" value="30" class="radio"><span style="font-size: 1.4vw;" >Credit card</span>
+               <br><br>
+               <input type="radio" id="pay2" name="pay" value="30" class="radio"><label style="font-size: 1.4vw;">PayPal</label>
+            </form>
+            <br><br>
+            <div class="ThePayPalPart" id="ThePayPalPart">
+                    <h2><span class="AskTheUser">Enter PayPal Account</span></h2>
+                    <br>
+                    <br>
+                    <h2><input type="text" placeholder="Card Holder Name..."></h2>
+                    <br>
+                    <br>
+                    <button onclick="openEnroll()" class="Confirm">Send Verification Mail</button>
+            </div>
+            <div id="TheChangingpart" class="TheChangingPart">
+                <h2><span style="font-size: 1.7vw;">Credit Card Number</span></h2>
+                <br>
+                <h2><input type="text" placeholder="Credit Card Number..."></h2>
+                <br><br>
+                <h2><span class="AskTheUser">Expiry Date</span><span style="font-size: 1.7vw;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CVV</span></h2>
+                <br><br>
+                <h2><select id="cars" name="carlist" form="carform">
+                    <option value="volvo">January</option>
+                    <option value="saab">February</option>
+                    <option value="opel">March</option>
+                    <option value="audi">April</option>
+                  </select>
+                  &emsp;&emsp;<select style="width: 5vw;" id="cars" name="carlist" form="carform">
+                    <option value="volvo">1</option>
+                    <option value="saab">2</option>
+                    <option value="opel">3</option>
+                    <option value="audi">4</option>
+                  </select>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                 <input type="text" placeholder="CVV" style="width: 6vw;"></h2>
+                  <br>
+                  <br>
+                  <h2><span style="font-size: 1.7vw;">Card Holder Name</span></h2>
+                  <br>
+                  <br>
+                  <h2><input type="text" placeholder="Card Holder Name..."></h2>
+                  <br>
+                  <br>
+                  <button onclick="openEnroll()" class="Confirm">Confirm</button>
+                  <br>
+                  <br>
+                </div>
+            </div>
+           
+        <script src="paymentmethod.js">
+               
+        </script>
+        <script src="LinkThePages.js"></script>
+        <script>
+              function openEnroll()
+        {
+            window.open("Enroll.html");
+            window.close();
+        }
+
+        </script>
+</body>
+</html>

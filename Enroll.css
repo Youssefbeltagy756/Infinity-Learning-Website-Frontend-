@@ -1,0 +1,54 @@
+.Content
+{
+    width: 65%;
+    height: fit-content;
+    margin: 0 auto;
+}
+.TheDiv
+{
+    width: 100%;
+    height: fit-content;
+    max-height: fit-content;
+    background-color: blue;
+    border: solid 0px blue;
+    border-radius: 100px;
+    margin: 20px;
+    display: flex;
+}
+h2
+{
+    transform: translateX(100px);
+    padding-top: 5%;
+    font-size: 1.7vw;
+}
+.TheDiv:hover
+{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.State
+{
+    height: 50%;
+    width: 25%;
+    float: right;
+    margin-top: 1.6vw;
+}
+.CompleteStep
+{
+    margin-top: 1vw;
+    border-radius: 0;
+    border: 0px;
+    background-color: midnightblue;
+    color: white;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+.CompleteStep:hover
+{
+     background-color: rgb(100, 100, 100);
+}
+label
+{
+    font-size: 2vw;
+}

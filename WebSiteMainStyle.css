@@ -1,0 +1,371 @@
+body
+    {   
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .Background
+    {
+        background-image: url("https://i.pinimg.com/originals/72/45/62/724562501bc0aa3a291bb21304154535.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height: 500px;
+    }
+    .mainmenu
+    {
+        border-radius: 0px;
+        height: 100%;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        background-color: #001f3f;
+        border-color: #001f3f;
+        color: white;
+    }
+    .mainmenu:hover{
+        background-color: lightblue;
+    }
+    span
+    {
+        font-size: 40px;
+    }
+    h1
+    {
+        text-align: center;
+    }
+    .TheLeftPart
+    {
+       
+        height: 400px;
+        text-align: center;
+        width: 50%;
+        float: left;
+    }
+    .TheRightPart
+    {
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        text-align: center;
+        border: solid 0px black;
+        border-radius: 20px;
+        float: right;
+        padding: 20px;
+        width: 30%;
+    }
+    input
+    {
+        cursor: pointer;
+        border: none;
+        padding: 1vw;
+        width: 20vw;
+        font-size: vw;
+    }
+    button
+    {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        border: none;
+        cursor: pointer;
+        border: solid 2px white;
+        border-radius: 20px;
+        font-weight: bolder;
+        font-size: 1vw;
+        background-color: #0066CC;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    button:hover
+    {
+        background-color: white;
+    }
+    .Menu
+    {
+        background-color: #001f3f;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-top: 0px;
+        border: solid 0px #0066CC;
+        display: inline-flex;
+        margin: auto;
+        max-height: 90px;
+        z-index: 10;
+        height: fit-content;
+    }       
+    ul{
+        list-style-type: none;
+        margin: auto;
+        width: 100%;
+        margin-right: 70px;
+        padding-right: 70px;
+        height: 100%;
+    }
+    input:hover
+    {
+        background-color: rgb(219, 214, 205);
+    } 
+    .account
+    {
+        float: left;
+        padding-left: 30px;
+        margin: auto;
+        display: flex;
+        margin-right: 6vw;
+        height: 100%;
+    }
+    .list
+    {
+        float: right;
+        padding-right: 10px;
+        position: relative;
+        display: flex;
+    }
+    .PicDiv
+    {
+        width: 1000px;
+        height: 400px;
+        object-fit: cover;
+        margin:  0 auto;
+        padding-top: 3px;
+        float: left;
+    }
+    .getStarted
+    {
+        background-color: #E25822;
+    }
+    img
+    {
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: relative;
+        object-fit: fill;
+        justify-content: center;
+    }
+    .TheBox
+    {
+        
+        height: 400px;
+        width: 40%;
+        margin: 0 auto;
+        height: 30px;
+    }
+    .google
+    {
+        width: 4vw;
+        height: 2vw;
+        justify-content: center;
+        margin: 0 auto;
+        margin-left: 10%;
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+     .TheBiggestContaner
+     {
+        display: flex;
+        margin-left: 5vw;
+        width: 100%; 
+     }
+     .Box1
+     {
+         width: 25%;
+         background-color:yellow;
+         height: 100%;
+         padding: 20px;
+         margin-left: 45px;
+         float: left;
+         margin: 15px;
+     }
+     .Box1:hover
+     {
+        transition-delay: 0.2s;
+        transform: scale(1.2);
+        transition-duration: 0.3s;
+        cursor: pointer;
+     }
+     .Box3
+     {
+        width: 25%;
+        margin: 15px;
+         margin-right: 45px;
+         height: 100%;
+         float: right;
+         padding: 20px;
+         background-color: purple;
+     }
+     .paragraph:hover
+     {
+    cursor: pointer;
+     }
+     .Box2:hover
+     
+     {
+        transition-delay: 0.2s;
+        transform: scale(1.2);
+        transition-duration: 0.3s;
+        cursor: pointer;
+     }
+     .Box3:hover
+     {
+        transition-delay: 0.1s;
+        transform: scale(1.2);
+        transition-duration: 0.3s;
+        cursor: pointer;
+     }
+     .Box2
+     {
+        width: 25%;
+         height: 100%;
+         margin: 0 auto;
+         background-color: blue;
+         padding: 20px;
+         margin: 15px;
+     }
+     .title
+     {
+         color: white;
+         display: inline-block;
+         font-size: 2.65vw;
+         margin: 0 auto;
+     }
+     .google
+     {
+        width: 70%;
+        padding-left: 20px;
+        height: 40px;
+        cursor: pointer;
+     }
+     .signIn
+     {
+         text-align: center;
+         height: 100vw;
+         width: 100vh;
+     }
+     p
+     {
+         cursor: default;
+     }
+     .Background
+     {
+         width: 100%;
+     }
+     .books
+     {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      padding-left: 20px;
+      padding-bottom: 2px;
+     }
+     .desc
+     {
+         text-align: center;
+         width: 50%;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         padding-top: 10%;
+         padding-left: 5%;
+         padding-right: 5%;
+     }
+     .PicAndPs
+     {
+        display: inline-flex;
+        margin: auto;
+        width: 100%; 
+     }
+     .TheBlock
+     {
+         display: -webkit-flex;
+     }
+     .switchBtn
+     {
+         height: 50px;
+         margin-top: 13%;         
+     }
+     .switchBtn:hover{
+        transition-delay: 0.2s;
+         transform: scale(1.2);
+         transition-duration: 0.3s;
+         background-color: purple;
+     }
+     .Bottum
+     {
+         background-color: purple;
+         width: 100%;
+         height: 40px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         float: left;
+     }
+    .GetStarted
+    {   margin: 0;
+        position: absolute;
+        top: 50%;
+        border-radius: 0vw;
+        border: 0px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        
+    }
+    .GetStarted:hover{
+        transition-delay: 0.2s;
+        transition-property: all;
+        width: 170px;
+        height: 60px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .desc2
+    {
+        text-align:left;
+        float: right;
+        padding-right: 70px;
+        word-wrap:break-word;
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: yellow;
+        padding: 40px;
+    }
+    img
+    {
+        object-fit: cover;
+    }
+    .LastDiv
+    {
+        margin-bottom: 50px;
+        width: 90%;
+        margin-left: 80px;
+        margin-right: 100px;
+        display: flex;
+        position: relative;
+        max-height: 800px;
+        height: 800px;
+    }
+    .TheLargeDiv
+    {
+        display: flex;
+        position: relative;
+        padding: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .GetStartedDiv
+    {
+        max-height: 800px;
+        position: relative;
+        float: left;
+        width: 60%;
+    }
+    .PicDiv
+    {
+        width: 100%;
+    }

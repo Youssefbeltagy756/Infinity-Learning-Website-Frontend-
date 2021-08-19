@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="stylesheet" href="WebSiteMainStyle.css">
+    <link rel="stylesheet" href="GetStarted.css">
+</head>
+<body>
+    <div class="Menu">
+        <div class="account">
+            <button onClick="openAccount()"class="mainmenu">Account</button>
+        </div>
+        <span class="title">Infinity Learning Website</span>
+        <div class="list">
+            <ul class="list">
+                <button onClick="openHome()"class="mainmenu" style="border-bottom: solid 4px white;">Home</button>
+                <button class="mainmenu">Contact us</button>
+                <button onClick="openSignUp()" class="mainmenu"onClick="openSignUp()">Sign Up</button>
+                <button onClick="openCourses()"class="mainmenu">Courses</button>  
+            </ul>
+        </div>
+    </div>
+    <div class="PageContent">
+        <h1>
+            Choose Your Suitable Path
+        </h1>
+        <div class="Upper">
+            <div class="left" style="background-color: yellow;"> 
+                 <h1>Path 1</h1>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada f ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                    <button onClick="openEnroll()"class="Enroll">Enroll Now</button>
+            </div>
+            <div class="right" style="background-color: darkorchid;">
+                <h1>Path 2</h1>
+                <p>Pellentgestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                 <button onClick="openEnroll()" class="Enroll">Enroll Now</button>
+            </div>
+        </div>
+        <div class="Upper">
+            <div class="left" style="background-color: darkblue;">
+                <h1>Path 3</h1>
+                <p>Pellentesque habitant morbi tristique senectus et netae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                 <button onClick="openEnroll()" class="Enroll">Enroll Now</button>
+            </div>
+            <div class="right" style="background-color: #E25822;">
+                <h1>Path 4</h1>
+                <p> Vestibulum tortor quam, feugiat vitae, ultricies egt ultricielacerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                 <button onClick="openEnroll()" class="Enroll">Enroll Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="LinkThePages.js"></script>
+    <script>
+        function openEnroll()
+        {
+            window.open("Enroll.html");
+            window.close();
+        }
+    </script>
+</body>
+</html>

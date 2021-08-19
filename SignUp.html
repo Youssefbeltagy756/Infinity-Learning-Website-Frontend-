@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="WebSiteMainStyle.css">
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <div>
+        <div class="Menu">
+            <div class="account">
+                <button onClick="openAccount()"class="mainmenu">Account</button>
+            </div>
+            <span class="title">Infinity Learning Website</span>
+            <div class="list">
+                <ul class="list">
+                    <button onClick="openHome()"class="mainmenu">Home</button>
+                    <button class="mainmenu">Contact us</button>
+                    <button onClick="openSignUp()" style="border-bottom: solid 4px white; "class="mainmenu"onClick="openSignUp() ">Sign Up</button>
+                    <button onClick="openCourses()" class="mainmenu">Courses</button>  
+                </ul>
+            </div>
+        </div>
+        <br><br>
+        <div class="LargeContainer">
+           <div class="LeftDiv">
+               <br>
+            <span class="Information">Information</span>
+              <p>
+                  When it comes to writing essays in college, we all need a place to start. 
+                  Five-paragraph essays are incredibly useful in two situations — when writers are just starting out and when a writing assignment is timed.
+              </p>
+              <p>
+                while others may spend a greater amount of time understanding this basic building block of college writing. Whatever the case, use the following guidelines to strengthen your knowledge of this preliminary essay format. 
+              </p>
+              <button class="TermsBtn" id="Agree" onClick="clickOnAgree()"> &#8226;  Agree On Terms</button>
+           </div>
+           <div class="rightDiv">
+               <br>
+               <span class="Data">First Name &emsp;&emsp;&emsp;</span>
+               <span class="Data"> &emsp; Last Name</span>
+               <br>
+               <input type="text" placeholder="Enter Name...">
+               <input type="text" placeholder="Enter Name...">
+               <br><br>
+               <span class="Data">Email</span>
+               <br>
+               <input class="Email"type="text" placeholder="Enter Email...">
+               <br><br>
+               <span class="Data">Password&emsp;</span>
+               <span class="Data">&emsp;&emsp;&emsp;Confirm Password</span>
+               <input type="password" placeholder="Enter Password...">
+               <input type="password" placeholder="Confirm Password...">
+               <br><br>
+               <button onclick="openEnroll()" class="TermsBtn" style="background-color: yellow;width: 15vw;margin: 30px;">Register</button>
+           </div>
+        </div>
+    <script>
+        let Btn = document.getElementById("Agree");
+        function clickOnAgree()
+        {
+           Btn.innerHTML = "&#10003; Agreed";
+           Btn.style.backgroundColor = "lightgreen";
+        }
+
+        function openEnroll()
+        {
+            window.open("Enroll.html");
+            window.close();
+        }
+    </script>
+    <script src="LinkThePages.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.UpperDiv
+{
+    background-color: #01366b;
+    height: fit-content;
+    display: flex;
+    width: 100%;
+}
+button
+{
+    background-color: #01366b;
+    border-radius: 0px;
+    border: 0px;
+    color: wheat;
+}
+.Units
+{
+    transform: translateX(200px);
+    display: flex;
+}
+.Container
+{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.Lessons
+{
+    width: 100%;
+}
+.TheLesson
+{
+    width: 100%;
+    transform: translateX(-40px);
+    padding: 40px;
+}
+.CourseContent
+{
+    float: right;
+    width: 85%;
+    background-color: yellow;
+}
+.SideBar
+{
+     width: 15%;
+     background-color: #01366b;
+}
+video
+{
+    text-align: center;
+}
+.TheUnit
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+p
+{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1.5vw;
+}

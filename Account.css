@@ -1,0 +1,204 @@
+.SideBar
+{
+    width: 20%;
+    background-color: #0659ac;
+    float: left;
+}
+.PageContainer
+{
+    display: flex;
+    display: 80%;
+    flex-direction: row;
+}
+.content
+{
+    float: right;
+    height: 100%;
+    width: 100%;
+    
+}
+.theButton
+{
+    border: 0ch; 
+    padding: 4%; 
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 0.6vw;
+    margin-bottom: 0.6vw;
+}
+.Search
+{
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    position: absolute;
+    left: 62%;
+    width: 40vw;
+    height: 7vh;
+    border:  solid 3px purple;
+    border-radius: 530px;
+}
+.YourCourses
+{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3%;
+    
+}
+.TheCourse
+{
+    margin: 0 auto;
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    padding: solid;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+}
+.TheCourse:hover
+{
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+.CourseData
+{
+    float: right;
+    width: 30%;
+    background-color: yellow;
+}
+.CourseTitle
+{
+    float: left;
+    width: 70%;
+}
+h2
+{
+    padding: 3vw;
+    text-align: left;
+    
+}
+.AccountData
+{
+    min-height: fit-content;
+    width: 100%;
+    background-color: yellow;
+}
+ul{
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    margin-right: 70px;
+    padding-right: 70px;
+    
+}
+li
+{
+    padding: 1vw;
+    font-size: 1.7vw;
+    margin: 2px;
+    height: 40px;
+    width: 100%;
+    margin-left: 2px;
+}
+
+
+.plus
+{
+    font-size: 2vw;
+    
+}
+span
+{
+    font-size: 1vw;
+    
+}
+.Progress
+{
+    text-align: center;
+}
+.plusDiv
+{
+    width: 20%;
+    float: right;
+    height: 100%;
+}
+.plusDiv:hover
+{
+    background-color: wheat;
+    cursor: pointer;
+}
+p
+{
+    word-wrap: break-word;
+    width: 50px;
+}
+.state
+{
+    font-size: 2vw;
+    margin:  0 auto;
+    text-align: center;
+    float: left;
+}
+.profile
+{
+    width: 100%;
+}
+.subjectDiv
+{
+    float: left;
+}
+.UnorderedList
+{
+    width: 60%;
+    text-align: left;
+    cursor: pointer;
+}
+.subjectDiv:hover
+{
+transform: scale(1.2);
+transition-duration: 0.4s;
+}
+.ProgreePercentage
+{
+    height: 60px;
+    width: 70%;
+    margin:  0 auto;
+    cursor: pointer;
+}
+.left
+{
+     height: 100%;
+     width: 90%;
+     background-color: blueviolet;
+     float: left;
+     
+}
+.right
+{
+   height: 100%;
+   width: 10%;
+   background-color: yellow;
+   float: right;
+}
+.level
+{
+    width: 90%;
+    background-color: white;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: chocolate solid 0px;
+    border-radius: 20px;
+    height: 30px;
+}
+.Downloaded
+{
+    width: 40%;
+    height: 100%;
+    border-right: chocolate solid 0px;
+    border-radius: 20px;
+    background-color: yellow;
+}

@@ -1,0 +1,57 @@
+.PageContent
+{
+    
+    width: 85%;
+    height: 70vw;
+    margin:  0 auto;
+    margin-top: 40px;
+}
+.Upper
+{
+  width: 100%;
+  min-height: 50%;
+  display: flex;
+}
+.left
+{
+    float: left;
+    width: 47%;
+    min-height: 90%;
+    padding: 5px;
+    margin: 20px;
+    
+}
+.right
+{
+    float: right;
+    width: 47%;
+    min-height: 90%;
+    padding: 5px;
+    margin: 20px;
+}
+.left:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.right:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+p
+{
+    padding: 20px;
+}
+p:hover
+{
+    cursor: pointer;
+}
+
+.Enroll
+{
+    border: 0px;
+    margin-left: 20px;
+}

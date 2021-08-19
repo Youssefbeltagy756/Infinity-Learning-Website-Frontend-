@@ -1,0 +1,66 @@
+.LargeContainer
+{
+    display: flex;
+    background-color: blueviolet;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.LeftDiv
+{
+    background-color: yellow;
+    width: 80%;
+    height: 50%;
+    float: left;
+}
+.righttDiv
+{
+    background-color: rgb(22, 22, 19);
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+p
+{
+    padding: 20px;
+}
+.Information
+{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding: auto;
+}
+.TermsBtn
+{
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 15vw;
+    border: solid 0px blueviolet;
+    border-radius: 0px;
+    background-color: blueviolet;
+}
+
+.Data
+{
+    font-size: 1.4vh;
+    font-size: 1.4vw;
+    margin-top: 10px;
+    padding: 2vw;
+    
+    color: white;
+}
+
+input
+{
+    width: 13vw;
+    margin-left: 2.2vw;
+    margin-top: 10px;
+    
+}
+.Email
+{
+    width: 30.4vw;
+}

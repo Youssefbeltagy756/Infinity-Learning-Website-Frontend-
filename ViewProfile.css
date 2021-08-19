@@ -1,0 +1,150 @@
+.AllPage
+{
+    display: flex;
+}
+.rightSide
+{
+    width: 85%;
+}
+.leftSide
+{
+    width: 15%;
+    background-color: #001f3f;
+}
+.leftBtn
+{
+    width: 100%;
+    transform: translateX(-40px);
+    border-radius: 0px;
+    border: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    color: white;
+    background-color: #001f3f;
+}
+.leftBtn:hover
+{
+    background-color: wheat;
+}
+.MainContainer
+{
+    display: flex;
+    width: 95%;
+    height: 50vw;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.LeftDiv
+{
+    background-color: darkorchid;
+    width: 50%;
+    float: left;
+    height: 550px;
+    min-height: fit-content;
+    margin: 20px;
+    border-bottom: solid 25px darkorchid;
+}
+.rightDiv
+{
+    width: 50%;
+    float: right;
+    height: 94%;
+    margin-bottom: 4px;
+    margin: 20px;
+}
+.UpperDiv
+{
+       width: 100%;
+       height: 50%;
+       border: solid 4px darkorchid;
+       border-radius: 50px;
+       min-height: fit-content;
+}
+.LowerDiv
+{
+     background-color: yellow;
+     width: 100%;
+     min-height: 40%;
+     height: fit-content;
+     margin-top: 20px;
+     padding-left: 20px;
+     padding-right: 12px;
+     
+}.profData
+{
+    font-size: 1.3vw;
+    color: white;
+    padding: 10px;
+}
+.Answer
+{
+    font-size: 1.2vw;
+    padding: 10px;
+}
+.editBtn
+{
+    background-color: yellow;
+    border-radius:0px;
+    border: 0px;
+    text-align: left;
+    width: 5vw;
+    padding: auto;
+    margin: 3px;
+    padding: 1%;
+    padding-left: 1.5vw;
+    cursor: pointer;
+    float: right;
+    margin-right: 3vw;
+}
+.editBtn:hover
+{
+    background-color: white;
+}
+.editPass
+{
+    width: 80%;
+    background-color: yellow;
+    border-radius:0px;
+    border: 0px;
+    margin: 3px;
+    padding: 2%;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+.editPass:hover
+{
+    background-color: white;
+}
+.profilePic
+{
+    width: 50%;
+    height: 68%;
+    margin:  0 auto;
+    padding: 10px;
+}
+img
+{
+    object-fit: cover;
+    cursor: pointer;
+}
+.ChangePic
+{
+    background-color: yellow;
+    border-radius:0px;
+    border: 0px;
+    width: 5vw;
+    margin: 3px;
+    padding: 1%;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 60%;
+    margin-left: 7vw;
+    max-height: 40px;
+}
+.ChangePic:hover
+{
+    transform: scale(1.2);
+    background-color: blueviolet;
+    transition-duration: 0.4s;
+}
